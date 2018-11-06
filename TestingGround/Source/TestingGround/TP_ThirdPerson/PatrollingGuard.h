@@ -6,9 +6,7 @@
 #include "TP_ThirdPerson/TP_ThirdPersonCharacter.h"
 #include "PatrollingGuard.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class TESTINGGROUND_API APatrollingGuard : public ATP_ThirdPersonCharacter
 {

@@ -91,6 +91,9 @@
     <ClInclude Include="..\..\Source\TestingGround\TP_ThirdPerson\PatrollingGuard.h">
       <Filter>Source\TestingGround\TP_ThirdPerson</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TestingGround\Public\PatrolRoute.h">
+      <Filter>Source\TestingGround\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\TestingGround\TP_ThirdPerson\ChooseNextWaypoint.cpp">
@@ -99,5 +102,16 @@
     <ClCompile Include="..\..\Source\TestingGround\TP_ThirdPerson\PatrollingGuard.cpp">
       <Filter>Source\TestingGround\TP_ThirdPerson</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TestingGround\Private\PatrolRoute.cpp">
+      <Filter>Source\TestingGround\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\TestingGround\Public">
+      <UniqueIdentifier>{80508a21-c83f-46a7-b2fa-1ce3d26ef9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TestingGround\Private">
+      <UniqueIdentifier>{ec9be037-4043-440a-b1b3-93017e7ad5d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

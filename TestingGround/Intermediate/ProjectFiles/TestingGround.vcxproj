@@ -419,7 +419,9 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\TestingGround\TestingGround.Build.cs" />
+    <ClCompile Include="..\..\Source\TestingGround\Private\PatrolRoute.cpp" />
     <ClCompile Include="..\..\Source\TestingGround\TestingGround.cpp" />
+    <ClInclude Include="..\..\Source\TestingGround\Public\PatrolRoute.h" />
     <ClInclude Include="..\..\Source\TestingGround\TestingGround.h" />
     <ClCompile Include="..\..\Source\TestingGround\TestingGroundCharacter.cpp" />
     <ClInclude Include="..\..\Source\TestingGround\TestingGroundCharacter.h" />
