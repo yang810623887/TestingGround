@@ -1,8 +1,6 @@
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\Public\PatrolRoute.h
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\TP_ThirdPerson\ChooseNextWaypoint.h
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\TP_ThirdPerson\TP_ThirdPersonCharacter.h
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\TP_ThirdPerson\TP_ThirdPersonGameMode.h
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\TestingGroundCharacter.h
+E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\NPC\ChooseNextWaypoint.h
+E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\NPC\PatrolRoute.h
+E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\Player\FirstPersonCharacter.h
+E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\Weapons\BallProjectile.h
 E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\TestingGroundGameMode.h
 E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\TestingGroundHUD.h
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\TestingGroundProjectile.h

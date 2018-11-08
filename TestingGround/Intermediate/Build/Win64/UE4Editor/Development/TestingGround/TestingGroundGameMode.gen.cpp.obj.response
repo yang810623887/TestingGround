@@ -23,7 +23,6 @@
 /wd4838
 /we4668
 /I .
-/I E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
 /I Runtime
 /I Runtime\NavigationSystem\Public
@@ -403,7 +402,6 @@
 /I ThirdParty\libSampleRate
 /I E:\SourceTreeRepository\05_TestGround\TestingGround\Intermediate\Build\Win64\UE4Editor\Inc\TestingGround
 /I E:\SourceTreeRepository\05_TestGround\TestingGround\Source
-/I E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\Public
 /I E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
