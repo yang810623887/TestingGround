@@ -13,7 +13,7 @@ EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & Ow
 
 	// TODO protect against empty patrol routes
 
-
+	
 	//get the patrol points
 	APawn* ControlledPawn = OwnerComp.GetAIOwner()->GetPawn();
 	UPatrolRoute* PatrolRoute = ControlledPawn->FindComponentByClass<UPatrolRoute>();
