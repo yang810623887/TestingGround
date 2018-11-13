@@ -1,3 +1,3 @@
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround\TestingGround.Build.cs
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGround.Target.cs
-E:\SourceTreeRepository\05_TestGround\TestingGround\Source\TestingGroundEditor.Target.cs
+E:\UE4\SourceTree\05_TestingGround\TestingGround\Source\TestingGround\TestingGround.Build.cs
+E:\UE4\SourceTree\05_TestingGround\TestingGround\Source\TestingGround.Target.cs
+E:\UE4\SourceTree\05_TestingGround\TestingGround\Source\TestingGroundEditor.Target.cs

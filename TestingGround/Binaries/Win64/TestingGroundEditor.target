@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-TestingGround-477.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-TestingGround-6291.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-TestingGround-477.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-TestingGround-6291.pdb",
 			"Type": "SymbolFile"
 		},
 		{

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TestingGround.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{3DC31AAE-1855-411C-9DE4-44D885A8C012}</UniqueIdentifier>
+			<UniqueIdentifier>{5525EECE-858B-4053-8085-0CDC716F4E3A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TestingGround.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{AE18BC65-0E57-4753-B11D-CC488B1A15EB}</UniqueIdentifier>
+			<UniqueIdentifier>{6C8F3611-42BB-4C6D-8CA4-BC66CDF8A662}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TestingGround">
-			<UniqueIdentifier>{2C427C5C-414A-4479-8475-D8E46BB162EA}</UniqueIdentifier>
+			<UniqueIdentifier>{CA97EA4D-E47A-4A57-8FDF-652FF9B7E387}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TestingGround\TestingGround.Build.cs">
 			<Filter>Source\TestingGround</Filter>
@@ -55,7 +55,7 @@
 			<Filter>Source\TestingGround</Filter>
 		</ClInclude >
 		<Filter Include="Source\TestingGround\Character">
-			<UniqueIdentifier>{B59076D6-26B5-4D2D-BFBC-F1D41097C36C}</UniqueIdentifier>
+			<UniqueIdentifier>{D2D83629-5B03-4146-8E08-27C3397B4F24}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TestingGround\Character\Mannequin.cpp">
 			<Filter>Source\TestingGround\Character</Filter>
@@ -64,7 +64,7 @@
 			<Filter>Source\TestingGround\Character</Filter>
 		</ClInclude >
 		<Filter Include="Source\TestingGround\NPC">
-			<UniqueIdentifier>{2A12888D-0763-4B83-9C81-048D125AD503}</UniqueIdentifier>
+			<UniqueIdentifier>{041A8C8A-07B9-4E11-BCE7-0943C197D364}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TestingGround\NPC\ChooseNextWaypoint.cpp">
 			<Filter>Source\TestingGround\NPC</Filter>
@@ -79,7 +79,7 @@
 			<Filter>Source\TestingGround\NPC</Filter>
 		</ClInclude >
 		<Filter Include="Source\TestingGround\Player">
-			<UniqueIdentifier>{221905D8-B401-4FB1-A4C9-A3DE5CAC5615}</UniqueIdentifier>
+			<UniqueIdentifier>{B0C12B64-EFA7-4639-9C11-654F27227EB4}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TestingGround\Player\FirstPersonCharacter.cpp">
 			<Filter>Source\TestingGround\Player</Filter>
@@ -88,7 +88,7 @@
 			<Filter>Source\TestingGround\Player</Filter>
 		</ClInclude >
 		<Filter Include="Source\TestingGround\Weapons">
-			<UniqueIdentifier>{D803C822-C8C6-4F0E-8249-F70D1D54200E}</UniqueIdentifier>
+			<UniqueIdentifier>{D322661E-1CA6-4C44-9EF1-4FA2314AF76A}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TestingGround\Weapons\BallProjectile.cpp">
 			<Filter>Source\TestingGround\Weapons</Filter>

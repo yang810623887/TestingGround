@@ -4,7 +4,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Weapons/Gun.h"
-
+#include "Components/InputComponent.h"
 
 
 // Sets default values
@@ -27,8 +27,9 @@ AMannequin::AMannequin()
 	Mesh1P->CastShadow = false;
 }
 
-void AMannequin::Fire()
+void AMannequin::PullTrigger()
 {
+	Gun->OnFire();
 }
 
 // Called when the game starts or when spawned
@@ -43,6 +44,12 @@ void AMannequin::BeginPlay()
 	Gun = GetWorld()->SpawnActor<AGun>(GunBlueprint);
 	Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 	Gun->AnimInstance = Mesh1P->GetAnimInstance();
+
+	if (InputComponent != NULL)
+	{
+		InputComponent->BindAction("Fire", IE_Pressed, this, &AMannequin::PullTrigger);
+	}
+	
 }
 
 // Called every frame
@@ -57,5 +64,6 @@ void AMannequin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	
 }
 
