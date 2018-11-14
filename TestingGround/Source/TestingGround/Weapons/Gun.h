@@ -30,12 +30,16 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	class USoundBase* FireSound;
 
-	/** AnimMontage to play each time we fire */
+	/** AnimMontage1P to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	class UAnimMontage* FireAnimation;
+	class UAnimMontage* FireAnimation1P;
 
+	/** AnimMontage3P to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	UAnimInstance* AnimInstance;
+	class UAnimMontage* FireAnimation3P;
+
+	UAnimInstance* AnimInstance1P;
+	UAnimInstance* AnimInstance3P;
 
 protected:
 	// Called when the game starts or when spawned

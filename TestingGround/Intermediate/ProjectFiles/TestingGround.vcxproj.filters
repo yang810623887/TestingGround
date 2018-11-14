@@ -1,106 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\TestingGround.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{5525EECE-858B-4053-8085-0CDC716F4E3A}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\TestingGround.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\TestingGroundEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{6C8F3611-42BB-4C6D-8CA4-BC66CDF8A662}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\TestingGround">
-			<UniqueIdentifier>{CA97EA4D-E47A-4A57-8FDF-652FF9B7E387}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\TestingGround\TestingGround.Build.cs">
-			<Filter>Source\TestingGround</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\TestingGround\TestingGround.cpp">
-			<Filter>Source\TestingGround</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\TestingGround.h">
-			<Filter>Source\TestingGround</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGround\TestingGroundGameMode.cpp">
-			<Filter>Source\TestingGround</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\TestingGroundGameMode.h">
-			<Filter>Source\TestingGround</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGround\TestingGroundHUD.cpp">
-			<Filter>Source\TestingGround</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\TestingGroundHUD.h">
-			<Filter>Source\TestingGround</Filter>
-		</ClInclude >
-		<Filter Include="Source\TestingGround\Character">
-			<UniqueIdentifier>{D2D83629-5B03-4146-8E08-27C3397B4F24}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\TestingGround\Character\Mannequin.cpp">
-			<Filter>Source\TestingGround\Character</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\Character\Mannequin.h">
-			<Filter>Source\TestingGround\Character</Filter>
-		</ClInclude >
-		<Filter Include="Source\TestingGround\NPC">
-			<UniqueIdentifier>{041A8C8A-07B9-4E11-BCE7-0943C197D364}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\TestingGround\NPC\ChooseNextWaypoint.cpp">
-			<Filter>Source\TestingGround\NPC</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\NPC\ChooseNextWaypoint.h">
-			<Filter>Source\TestingGround\NPC</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGround\NPC\PatrolRoute.cpp">
-			<Filter>Source\TestingGround\NPC</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\NPC\PatrolRoute.h">
-			<Filter>Source\TestingGround\NPC</Filter>
-		</ClInclude >
-		<Filter Include="Source\TestingGround\Player">
-			<UniqueIdentifier>{B0C12B64-EFA7-4639-9C11-654F27227EB4}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\TestingGround\Player\FirstPersonCharacter.cpp">
-			<Filter>Source\TestingGround\Player</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\Player\FirstPersonCharacter.h">
-			<Filter>Source\TestingGround\Player</Filter>
-		</ClInclude >
-		<Filter Include="Source\TestingGround\Weapons">
-			<UniqueIdentifier>{D322661E-1CA6-4C44-9EF1-4FA2314AF76A}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\TestingGround\Weapons\BallProjectile.cpp">
-			<Filter>Source\TestingGround\Weapons</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\Weapons\BallProjectile.h">
-			<Filter>Source\TestingGround\Weapons</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGround\Weapons\Gun.cpp">
-			<Filter>Source\TestingGround\Weapons</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGround\Weapons\Gun.h">
-			<Filter>Source\TestingGround\Weapons</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\TestingGround.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3F12428A-B6FE-4D88-AF52-4EB2F4F3D84B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestingGround.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TestingGroundEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5C2CC47D-6131-447B-8049-72BD9A59B324}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TestingGround">
+      <UniqueIdentifier>{C9525506-3A45-405B-9E03-621B362686B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestingGround\TestingGround.Build.cs">
+      <Filter>Source\TestingGround</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TestingGround\TestingGround.cpp">
+      <Filter>Source\TestingGround</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\TestingGround.h">
+      <Filter>Source\TestingGround</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestingGround\TestingGroundGameMode.cpp">
+      <Filter>Source\TestingGround</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\TestingGroundGameMode.h">
+      <Filter>Source\TestingGround</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestingGround\TestingGroundHUD.cpp">
+      <Filter>Source\TestingGround</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\TestingGroundHUD.h">
+      <Filter>Source\TestingGround</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestingGround\Character">
+      <UniqueIdentifier>{EFE3F9B9-050C-4538-A27E-D69BC3D93D89}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestingGround\Character\Mannequin.cpp">
+      <Filter>Source\TestingGround\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\Character\Mannequin.h">
+      <Filter>Source\TestingGround\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestingGround\NPC">
+      <UniqueIdentifier>{5667156E-073A-4174-9485-A540D0640D6D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestingGround\NPC\ChooseNextWaypoint.cpp">
+      <Filter>Source\TestingGround\NPC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\NPC\ChooseNextWaypoint.h">
+      <Filter>Source\TestingGround\NPC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestingGround\NPC\PatrolRoute.cpp">
+      <Filter>Source\TestingGround\NPC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\NPC\PatrolRoute.h">
+      <Filter>Source\TestingGround\NPC</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestingGround\Player">
+      <UniqueIdentifier>{046CE08D-B9F3-4C01-A5F5-2B085566DA51}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestingGround\Player\FirstPersonCharacter.cpp">
+      <Filter>Source\TestingGround\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\Player\FirstPersonCharacter.h">
+      <Filter>Source\TestingGround\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestingGround\Weapons">
+      <UniqueIdentifier>{B6D9F1CE-B319-4E88-B606-ADABE2D1FE9F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestingGround\Weapons\BallProjectile.cpp">
+      <Filter>Source\TestingGround\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\Weapons\BallProjectile.h">
+      <Filter>Source\TestingGround\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestingGround\Weapons\Gun.cpp">
+      <Filter>Source\TestingGround\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestingGround\Weapons\Gun.h">
+      <Filter>Source\TestingGround\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\TestingGround\Terrain">
+      <UniqueIdentifier>{1f46a756-82bf-4d69-8eec-e3c12b10e9a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TestingGround\Terrain\Tile.h">
+      <Filter>Source\TestingGround\Terrain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TestingGround\Terrain\Tile.cpp">
+      <Filter>Source\TestingGround\Terrain</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
