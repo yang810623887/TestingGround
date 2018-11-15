@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeTestingGround_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/TestingGround",
 				PKG_CompiledIn | 0x00000000,
-				0x92D4855B,
-				0x67B72002,
+				0x3E7EBB6A,
+				0xA34A5F95,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

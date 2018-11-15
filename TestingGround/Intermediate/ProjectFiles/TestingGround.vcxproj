@@ -83,7 +83,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{264CFCD9-6771-414C-AF98-B1B0689ABE34}</ProjectGuid>
+    <ProjectGuid>{FBA734FD-95E4-4DEF-B405-42EE95A1BA71}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>TestingGround</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
@@ -417,11 +417,12 @@
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini" />
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
+    <None Include="..\..\Config\DefaultGameplayTags.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\TestingGround\TestingGround.Build.cs" />
-    <ClCompile Include="..\..\Source\TestingGround\Terrain\Tile.cpp" />
+    <ClCompile Include="..\..\Source\TestingGround\ActorPool.cpp" />
     <ClCompile Include="..\..\Source\TestingGround\TestingGround.cpp" />
-    <ClInclude Include="..\..\Source\TestingGround\Terrain\Tile.h" />
+    <ClInclude Include="..\..\Source\TestingGround\ActorPool.h" />
     <ClInclude Include="..\..\Source\TestingGround\TestingGround.h" />
     <ClCompile Include="..\..\Source\TestingGround\TestingGroundGameMode.cpp" />
     <ClInclude Include="..\..\Source\TestingGround\TestingGroundGameMode.h" />
@@ -435,6 +436,10 @@
     <ClInclude Include="..\..\Source\TestingGround\NPC\PatrolRoute.h" />
     <ClCompile Include="..\..\Source\TestingGround\Player\FirstPersonCharacter.cpp" />
     <ClInclude Include="..\..\Source\TestingGround\Player\FirstPersonCharacter.h" />
+    <ClCompile Include="..\..\Source\TestingGround\Terrain\InfiniteTerrainGameMode.cpp" />
+    <ClInclude Include="..\..\Source\TestingGround\Terrain\InfiniteTerrainGameMode.h" />
+    <ClCompile Include="..\..\Source\TestingGround\Terrain\Tile.cpp" />
+    <ClInclude Include="..\..\Source\TestingGround\Terrain\Tile.h" />
     <ClCompile Include="..\..\Source\TestingGround\Weapons\BallProjectile.cpp" />
     <ClInclude Include="..\..\Source\TestingGround\Weapons\BallProjectile.h" />
     <ClCompile Include="..\..\Source\TestingGround\Weapons\Gun.cpp" />
